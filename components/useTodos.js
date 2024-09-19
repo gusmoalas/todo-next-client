@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const SERVER_ENDPOINT = 'https://humble-space-giggle-4qw9qjp9rph7vwq-5000.app.github.dev'
+const SERVER_ENDPOINT = 'https://scaling-engine-7vjp775x9463x9x-5000.app.github.dev/v'
 
 export const useTodos = () => {
   const [todos, setTodos] = useState([]);
